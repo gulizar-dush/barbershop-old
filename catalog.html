@@ -30,7 +30,57 @@
         <li><a href="#">Магазин</a></li>
         <li>Средства для ухода</li>
       </ul>
-      
+      <section>
+          <form method="get" action="#">
+            <fieldset>
+              <legend>Производители:</legend>
+              <ul>
+                <li>
+                  <input type="checkbox" name="baxter-of-california" id="baxter-of-california" checked>
+                  <label for="baxter-of-california">Baxter of California</label>
+                </li>
+                <li class="filter-option">
+                  <input type="checkbox" name="mr-natty" id="mr-natty">
+                  <label for="mr-natty">Mr Natty</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="suavecito" id="suavecito" checked>
+                  <label for="suavecito">Suavecito</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="malin-goetz" id="malin-goetz">
+                  <label for="malin-goetz">Malin+Goetz</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="murrays" id="murrays">
+                  <label for="murrays">Murray’s</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="american-crew" id="american-crew" checked>
+                  <label for="american-crew">American Crew</label>
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset>
+              <legend>Группы товаров:</legend>
+              <ul>
+                <li>
+                  <input type="radio" name="product-group" value="britven" id="britven">
+                  <label for="britven">Бритвенные принадлежности</label>
+                </li>
+                <li>
+                  <input type="radio" name="product-group" value="care" id="care" checked>
+                  <label for="care">Средства для ухода</label>
+                </li>
+                <li>
+                  <input type="radio" name="product-group" value="accessories" id="accessories">
+                  <label for="accessories">Аксессуары</label>
+                </li>
+              </ul>
+            </fieldset>
+            <button type="submit">Показать</button>
+          </form>
+        </section>
       <section>
         <h2>Список средств для ухода</h2>
         <ul>
@@ -48,7 +98,7 @@
             </p>
             <p>
               <b>2 900 ₽</b>
-              <a href="#">Купить</a>
+              <button type="submit">Купить</button>
             </p>
           </li>
           <li>
@@ -65,7 +115,7 @@
             </p>
             <p>
               <b>750 ₽</b>
-              <a href="#">Купить</a>
+              <button type="submit">Купить</button>
             </p>
           </li>
           <li>
@@ -82,7 +132,7 @@
             </p>
             <p>
               <b>290 ₽</b>
-              <a href="#">Купить</a>
+              <button type="submit">Купить</button>
             </p>
           </li>
           <li>
@@ -99,7 +149,7 @@
             </p>
             <p>
               <b>500 ₽</b>
-              <a href="#">Купить</a>
+              <button type="submit">Купить</button>
             </p>
           </li>
           <li>
@@ -116,7 +166,7 @@
             </p>
             <p>
               <b>300 ₽</b>
-              <ahref="#">Купить</a>
+              <button type="submit">Купить</button>
             </p>
           </li>
           <li>
@@ -133,15 +183,15 @@
             </p>
             <p>
               <b>3 900 ₽</b>
-              <ahref="#">Купить</a>
+              <button type="submit">Купить</button>
             </p>
           </li>
         </ul>
         <ul>
-          <li><a href="#">1</a></li>
-          <li><a>2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">4</a></li>
+          <li><button type="submit">1</button></a></li>
+          <li>2</li>
+          <li><button type="submit">3</button></a></li>
+          <li><button type="submit">4</button></a></li>
         </ul>
       </section>
     </main>
@@ -162,7 +212,7 @@
       </div>
       <p>
         <b>Разработано:</b> 
-        <a href="#">HTML Academy</a>
+        <button type="submit">HTML Academy</button>
       </p>
     </footer>
   </body>
