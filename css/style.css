@@ -1,0 +1,40 @@
+header {
+    background-color: #000000;
+}
+
+header a {
+    color: #fff;
+}
+
+main {
+    background: url(../img/big_fon.jpg);
+}
+
+body {
+    margin: 0;
+    font-family: 'PTSans', sans-serif;
+}
+
+.sredstva {
+    color: #aba9a7;
+}
+
+footer {
+    color: #fff; 
+}
+
+.no_sredstva {
+    color: #000000;
+}
+
+.cak_nas_naiti {
+    color: #fff;
+}
+
+footer {
+    background: url(../img/footer.png);
+}
+
+.product li {
+    background-color: #fff;
+}
