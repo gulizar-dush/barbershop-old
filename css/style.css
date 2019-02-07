@@ -12,7 +12,8 @@ main {
 
 body {
     margin: 0;
-    font-family: 'PTSans', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
 }
 
 .sredstva {
@@ -37,4 +38,10 @@ footer {
 
 .product li {
     background-color: #fff;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #663d15;
 }
