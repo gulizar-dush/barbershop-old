@@ -40,8 +40,6 @@ footer {
     background-color: #fff;
 }
 
-.button:hover,
-.button:focus,
-.button:active {
-  background-color: #663d15;
+.p_black {
+    color: #000;
 }
