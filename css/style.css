@@ -120,3 +120,17 @@ footer {
     background: url(../img/black_kvadrat.png);
     color: #fff;
 }
+
+.smoll_fon_main {
+    background: url(../img/smoll_fon_main.png);
+}
+
+.shirina {
+   width: 941px; 
+   margin-left: 200px;
+}
+
+.pop {
+    margin-left: 36px;
+    margin-right: 50px;
+}
