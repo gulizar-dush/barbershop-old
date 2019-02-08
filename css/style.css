@@ -43,3 +43,80 @@ footer {
 .p_black {
     color: #000;
 }
+
+.fon_dly_main {
+    background: url(../img/main_fon.png) no-repeat;
+}
+
+.no_ramka {
+    border: none;
+}
+
+.main_logo {
+    margin-left: 450px;
+    margin-top: 61px;
+}
+
+.cak_nas_nait {
+    margin-left: 105px;
+}
+
+.mak {
+    margin-left: 90px;
+}
+
+.kip {
+   display: flex; 
+}
+
+.li_kip {
+    margin-right: 40px;   
+}
+
+.li_kip4 {
+    margin-right: 61px;
+    margin-top: 30px;
+}
+
+.li_kip2 {
+    margin-top: 15px;
+}
+
+.li_kip3 {
+    margin-left: 400px;
+}
+
+.img_kip1 {
+    margin-right: 10px;  
+}
+
+.li_margin {
+    margin-left: 140px;
+}
+
+.vniz {
+    margin-top: 30px;
+}
+
+.grey {
+    color: #aeaeae;
+    margin: 190px;
+}
+
+.menu2 {
+    margin-right: 40px;   
+}
+ 
+.margin_nazvaniy_tovara {
+    margin: 15px;
+}
+
+.ili li {
+    box-shadow: 1px 1px 10px #aba9a7;
+    width: 220px;
+}
+
+.lbuttonl {
+    background: url(../img/black_kvadrat.png);
+    color: #fff;
+}
